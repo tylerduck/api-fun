@@ -13,7 +13,8 @@ def get_boston_three():
 	# celtics play wizards on 2019-04-09
 	celtics_last_game = "2019-04-09"
 	all_dates = [game.date for game in sched]
-	assert celtics_last_game in all_dates
+	print(all_dates)
+	#assert celtics_last_game in all_dates
 
 def get_date():
 	return datetime.datetime.today().strftime('%Y-%m-%d')
